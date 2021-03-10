@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI", "CTCI\CTCI.csproj", "{0F13FC8C-8CC0-4FCE-B2D5-54747D32777F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI.Tests", "CTCI.Tests\CTCI.Tests.csproj", "{D5D2C168-3DB0-4AA0-ACD6-BFD77E6563E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F13FC8C-8CC0-4FCE-B2D5-54747D32777F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F13FC8C-8CC0-4FCE-B2D5-54747D32777F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F13FC8C-8CC0-4FCE-B2D5-54747D32777F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F13FC8C-8CC0-4FCE-B2D5-54747D32777F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D2C168-3DB0-4AA0-ACD6-BFD77E6563E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D2C168-3DB0-4AA0-ACD6-BFD77E6563E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D2C168-3DB0-4AA0-ACD6-BFD77E6563E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D2C168-3DB0-4AA0-ACD6-BFD77E6563E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1CF8017-6DB6-4338-AC96-56076B32893D}
+	EndGlobalSection
+EndGlobal
