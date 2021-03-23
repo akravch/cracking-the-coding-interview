@@ -33,5 +33,40 @@ namespace CTCI.Ch_02_Linked_Lists.Task_01_Delete_Duplicates
 
             return uniqueHead;
         }
+
+        public LinkedListNode<int> Delete2(LinkedListNode<int> head)
+        {
+            var current = head;
+
+            while (current != null)
+            {
+                DeleteDuplicatesAhead(current);
+                current = current.Next;
+
+            }
+
+            return head;
+        }
+
+        private static void DeleteDuplicatesAhead(LinkedListNode<int> head)
+        {
+            var value = head.Value;
+            var previous = head;
+            var current = head.Next;
+
+            while (current != null)
+            {
+                if (current.Value == value)
+                {
+                    previous.Next = current.Next;
+                }
+                else
+                {
+                    previous = current;
+                }
+
+                current = current.Next;
+            }
+        }
     }
 }

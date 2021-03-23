@@ -17,6 +17,17 @@ namespace CTCI.Tests.Ch_02_Linked_Lists.Task_01_Delete_Duplicates
             Assert.Equal(expected, LinkedListHelper.ToList(actual));
         }
 
+        [Theory]
+        [MemberData(nameof(GetTestCases))]
+        public void Delete2(int[] input, int[] expected)
+        {
+            var solution = new DeleteDuplicates();
+
+            var actual = solution.Delete2(LinkedListHelper.FromCollection(input));
+
+            Assert.Equal(expected, LinkedListHelper.ToList(actual));
+        }
+
         public static IEnumerable<object[]> GetTestCases()
         {
             var input1 = new[] { 1, 2, 3, 3, 2, 1 };
