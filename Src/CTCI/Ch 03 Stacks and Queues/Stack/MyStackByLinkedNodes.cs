@@ -1,4 +1,4 @@
-﻿namespace CTCI.Ch_02_Stacks_and_Queues.Stack
+﻿namespace CTCI.Ch_03_Stacks_and_Queues.Stack
 {
     public class MyStackByLinkedNodes<T> : IStack<T>
     {

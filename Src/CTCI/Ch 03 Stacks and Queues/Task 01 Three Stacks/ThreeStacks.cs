@@ -1,7 +1,7 @@
 ﻿using System;
-using CTCI.Ch_02_Stacks_and_Queues.Stack;
+using CTCI.Ch_03_Stacks_and_Queues.Stack;
 
-namespace CTCI.Ch_02_Stacks_and_Queues.Task_01_Three_Stacks
+namespace CTCI.Ch_03_Stacks_and_Queues.Task_01_Three_Stacks
 {
     public class ThreeStacks
     {
